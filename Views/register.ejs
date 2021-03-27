@@ -10,14 +10,98 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <h1>Register Form</h1>
+    <div class="container ">
+      <h1 class="display-2 d-flex justify-content-center">Register Form</h1>
       <form action="" method="post">
-      <input class="d-block" type="text" name = 'name' placeholder=" Enter Name">
-      <input class="d-block" type="text" name = 'email' placeholder=" Enter Email">
-      <button type="submit">Register</button>
-    </form>
+        <text class="h3 text-left mt-4 text-info">Personal Information</text>
+        <hr>
+      <input class="form-control d-block m-3" type="text" name = 'first_name' placeholder=" Enter First Name">
+      <input class="form-control d-block m-3" type="text" name = 'last_name' placeholder=" Enter Last Name">
+      <input class="form-control d-block m-3" type="text" name = 'fathers_name' placeholder=" Enter Fathers Name">
+      <input class="form-control d-block m-3" type="text" name = 'mothers_name' placeholder=" Enter Mothers Name">
+      <input class="form-control d-block m-3" type="text" name = 'national_id' placeholder=" Enter National ID">
+      <input class="form-control d-block m-3" type="text" name = 'identification_mark' placeholder=" Enter Identification Mark">
       
-      <a class="d-block" href="/">Login</a>
+      <text class="h3 text-left mt-4 text-info">Family Information</text>
+      <hr>
+      <input class="form-control d-block m-3" type="text" name = 'total_family_members' placeholder=" Enter Ammount of total family members">
+      <input class="form-control d-block m-3" type="text" name = 'father_count' placeholder=" Enter amount of father in family">
+      <input class="form-control d-block m-3" type="text" name = 'mother_count' placeholder=" Enter amount of mother in family">
+      <input class="form-control d-block m-3" type="text" name = 'son_count' placeholder=" Enter amount of son in family">
+      <input class="form-control d-block m-3" type="text" name = 'daughter_count' placeholder=" Enter amount of daughter in family">
+      
+
+
+      <text class="h3 text-left mt-4 d-block mb-3 text-info">Present Address</text>
+      <hr>
+      <text class="h5">Select Country</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Bangladesh</option>
+        <option>India</option>
+        <option>Malaysia</option>
+        <option>Nepal</option>
+      </select>
+
+      <text class="h5">Select State</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+
+      <text class="h5">Select City</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+      
+      
+      <text class="h5">Post Office</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+
+
+      
+      <text class="h3 text-left mt-4 d-block mb-3 text-info">Permanent Address</text>
+      <hr>
+      <text class="h5">Select Country</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Bangladesh</option>
+        <option>India</option>
+        <option>Malaysia</option>
+        <option>Nepal</option>
+      </select>
+
+      <text class="h5">Select State</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+
+      <text class="h5">Select City</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+      
+      
+      <text class="h5">Post Office</text>
+      <select class="form-control form-control-lg mb-3">
+        <option>Dhaka</option>
+      </select>
+      
+      
+      
+      <text class="h3 text-left mt-4 text-info">Other Information</text>
+      <input class="form-control d-block m-3" type="text" name = 'religion_id' placeholder=" Enter Religion">
+      <input class="form-control d-block m-3" type="text" name = 'education_id' placeholder= "Enter Education">
+      <input class="form-control d-block m-3" type="text" name = 'marital_code' placeholder=" Enter Marriage Status">
+      <input class="form-control d-block m-3" type="text" name = 'nationality_code' placeholder=" Enter Nationality">
+      <input class="form-control d-block m-3" type="text" name = 'profession_id' placeholder=" Enter profession">
+      <input class="form-control d-block m-3" type="text" name = 'contact_no' placeholder=" Enter contact number">
+      <input class="form-control d-block m-3" type="text" name = 'annual_earnings' placeholder=" Enter Your Total earning">
+      <input class="form-control d-block m-3" type="text" name = 'nodal_access_id' placeholder=" Nodal Access">
+
+      <button class="btn btn-success text-center d-block" type="submit">Register</button>
+    </form>
+  </div>
+      
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

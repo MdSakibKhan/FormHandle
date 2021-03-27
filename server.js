@@ -44,7 +44,7 @@ app.post('/success', (req, res)=>{
 })
 
 app.get('/showusers', (req, res)=>{
-  connection.query('Select * from users',(err, result)=>{
+  connection.query('Select user_id,first_name, last_name from user',(err, result)=>{
     if(err) {
       res.write("Not Connected")
     }

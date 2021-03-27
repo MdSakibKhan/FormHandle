@@ -10,11 +10,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <h1 class="display-3 text-center">This is homepage</h1>
-      <div class="nav">
-      <a href="/register"> <button class="btn btn-primary m-3"> Register User </button> </a>
-      <a href="/showusers"><button class="btn btn-primary m-3">Show Users </button> </a>
-      </div>
+    <nav class="navbar navbar-light text-light bg-dark justify-content-between p-4">
+      <a class="navbar-brand">User Management</a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    
+
+    <div class="list-group container mt-5 ">
+      <a style="margin-bottom: 2%;" href="/register" class="list-group-item list-group-item-action bg-info" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+          <h4 class="mb-1 text-light"><i>Register Users</i></h5>
+        </div>
+        <p class="mb-1 text-light">Register User with their all kind of informations</p>
+      </a>
+      <a href="/showusers" class="list-group-item list-group-item-action bg-info">
+        <div class="d-flex w-100 justify-content-between">
+          <h4 class="mb-1 text-light"><i>Show Users</i></h5>
+        </div>
+        <p class="mb-1 text-light">This will show you all the details of the registered users</p>
+      </a>
+    
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
